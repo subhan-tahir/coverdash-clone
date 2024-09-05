@@ -1527,8 +1527,14 @@ form button{
     
   }
 @media screen and (max-width: 760px) {
+    .slider-item{
+        grid-template-columns: repeat(2,minmax(0,1fr))
+    }
+    .logo-section-wrapper{
+        gap:20px;
+    }
     .navbar{
-padding: 0px;
+        padding: 15px;
     }
     .message-container{
         width: 100%;
